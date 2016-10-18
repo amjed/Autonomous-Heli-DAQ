@@ -1,0 +1,169 @@
+CCS PCB C Compiler, Version 4.088, 9398               16-Jan-10 14:44
+
+               Filename: D:\my documents\data_logger\simulation\gps\gps.lst
+
+               ROM used: 342 words (67%)
+                         Largest free fragment is 170
+               RAM used: 4 (17%) at main() level
+                         6 (25%) worst case
+               Stack:    1 locations
+
+*
+0000:  MOVWF  05
+0001:  GOTO   122
+0002:  GOTO   008
+0003:  GOTO   0EE
+0004:  GOTO   050
+0005:  GOTO   07C
+0006:  GOTO   0C1
+0007:  GOTO   110
+.................... #include "gps.h" 
+.................... #include <10F202.h> 
+.................... //////// Standard Header file for the PIC10F202 device //////////////// 
+.................... #device PIC10F202 
+.................... #list 
+....................  
+....................  
+.................... #FUSES NOWDT                    //No Watch Dog Timer 
+.................... #FUSES NOMCLR                   //Master Clear pin used for I/O 
+.................... #FUSES NOPROTECT                //Code not protected from reading 
+....................  
+.................... #use delay(clock=4000000) 
+*
+0110:  MOVF   0B,W
+0111:  BTFSC  03.2
+0112:  GOTO   121
+0113:  MOVLW  01
+0114:  MOVWF  09
+0115:  CLRF   08
+0116:  DECFSZ 08,F
+0117:  GOTO   116
+0118:  DECFSZ 09,F
+0119:  GOTO   115
+011A:  MOVLW  4A
+011B:  MOVWF  08
+011C:  DECFSZ 08,F
+011D:  GOTO   11C
+011E:  GOTO   11F
+011F:  DECFSZ 0B,F
+0120:  GOTO   113
+0121:  GOTO   15C (RETURN)
+.................... #use rs232(baud=19200,parity=N,xmit=PIN_B0,rcv=PIN_B1,bits=8) 
+*
+00EE:  BCF    0A.0
+00EF:  MOVF   0A,W
+00F0:  TRIS   6
+00F1:  BCF    06.0
+00F2:  MOVLW  08
+00F3:  MOVWF  0D
+00F4:  GOTO   0F5
+00F5:  NOP
+00F6:  BSF    0D.7
+00F7:  GOTO   106
+00F8:  BCF    0D.7
+00F9:  RRF    0C,F
+00FA:  BTFSC  03.0
+00FB:  BSF    06.0
+00FC:  BTFSS  03.0
+00FD:  BCF    06.0
+00FE:  BSF    0D.6
+00FF:  GOTO   106
+0100:  BCF    0D.6
+0101:  DECFSZ 0D,F
+0102:  GOTO   0F9
+0103:  GOTO   104
+0104:  NOP
+0105:  BSF    06.0
+0106:  MOVLW  0B
+0107:  MOVWF  09
+0108:  DECFSZ 09,F
+0109:  GOTO   108
+010A:  NOP
+010B:  BTFSC  0D.7
+010C:  GOTO   0F8
+010D:  BTFSC  0D.6
+010E:  GOTO   100
+010F:  RETLW  00
+....................  
+....................  
+....................  
+....................  
+.................... void main() 
+.................... { 
+*
+0122:  MOVLW  DF
+0123:  OPTION
+0124:  CLRF   04
+0125:  BCF    0A.0
+0126:  MOVF   0A,W
+0127:  TRIS   6
+0128:  BSF    06.0
+....................  
+....................    setup_timer_0(RTCC_INTERNAL|RTCC_DIV_1); 
+*
+012B:  MOVLW  08
+012C:  OPTION
+....................    while(1) 
+....................    { 
+....................       printf("$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A\r\n"); 
+012D:  CLRF   0B
+012E:  MOVF   0B,W
+012F:  CALL   008
+0130:  INCF   0B,F
+0131:  MOVWF  08
+0132:  MOVWF  0C
+0133:  CALL   0EE
+0134:  MOVLW  46
+0135:  SUBWF  0B,W
+0136:  BTFSS  03.2
+0137:  GOTO   12E
+....................       printf("$GPGLL,4916.45,N,12311.12,W,225444,A,*1D\r\n"); 
+0138:  CLRF   0B
+0139:  MOVF   0B,W
+013A:  CALL   050
+013B:  INCF   0B,F
+013C:  MOVWF  08
+013D:  MOVWF  0C
+013E:  CALL   0EE
+013F:  MOVLW  2A
+0140:  SUBWF  0B,W
+0141:  BTFSS  03.2
+0142:  GOTO   139
+....................       printf("$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47\r\n"); 
+0143:  CLRF   0B
+0144:  MOVF   0B,W
+0145:  CALL   07C
+0146:  INCF   0B,F
+0147:  MOVWF  08
+0148:  MOVWF  0C
+0149:  CALL   0EE
+014A:  MOVLW  43
+014B:  SUBWF  0B,W
+014C:  BTFSS  03.2
+014D:  GOTO   144
+....................       printf("$GPVTG,060.0,T,048.7,M,004.0,N,008.0,K*43\r\n"); 
+014E:  CLRF   0B
+014F:  MOVF   0B,W
+0150:  CALL   0C1
+0151:  INCF   0B,F
+0152:  MOVWF  08
+0153:  MOVWF  0C
+0154:  CALL   0EE
+0155:  MOVLW  2B
+0156:  SUBWF  0B,W
+0157:  BTFSS  03.2
+0158:  GOTO   14F
+....................  
+....................       delay_ms(100); 
+0159:  MOVLW  64
+015A:  MOVWF  0B
+015B:  GOTO   007
+....................    } 
+015C:  GOTO   12D
+....................    // TODO: USER CODE!! 
+....................  
+.................... } 
+015D:  SLEEP
+
+Configuration Fuses:
+   Word  1: 0FEB   NOMCLR NOPROTECT NOWDT

@@ -1,0 +1,48 @@
+008     @SCRATCH
+009     @SCRATCH
+009     _RETURN_
+00A     @TRIS_B
+00B     @delay_ms1.P1
+00B     main.@SCRATCH1
+00C     @PUTCHAR_1_.P1
+00D     @PUTCHAR_1_.@SCRATCH1
+
+ROM Allocation:
+0110  @delay_ms1
+00EE  @PUTCHAR_1_
+0122  main
+0008  @const47
+0050  @const48
+007C  @const49
+00C1  @const50
+0122  @cinit
+
+
+Project Directory:
+    D:\my documents\data_logger\simulation\gps\
+
+Project Files:
+    gps.c
+    gps.h
+    C:\Program Files\PICC\devices\10F202.h
+
+Units:
+    D:\my documents\data_logger\simulation\gps\gps.c (main)
+
+Compiler Settings:
+    Processor:      PIC10F202
+    Pointer Size:   5
+    Opt Level:      0
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      gps.err
+    Ext Symbols: gps.esym
+    INHX8:       gps.hex
+    Symbols:     gps.sym
+    List:        gps.lst
+    Debug/COFF:  gps.cof
+    Project:     gps.PJT
+    Call Tree:   gps.tre
+    Statistics:  gps.sta

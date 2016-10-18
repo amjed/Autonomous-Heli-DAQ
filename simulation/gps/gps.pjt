@@ -1,0 +1,27 @@
+[PROJECT]
+Target=gps.hex
+Development_Mode=
+Processor_Text=PIC10F202
+ToolSuite=CCS
+Processor=0xF202
+[gps]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=gps
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Opened Files]
+1=gps.c
+2=
+3=
+[Target Data]
+OptionString=-p +FB
+FileList=D:\my documents\data_logger\simulation\gps\gps.c
+[Units]
+Count=1
+1=gps.c (main)

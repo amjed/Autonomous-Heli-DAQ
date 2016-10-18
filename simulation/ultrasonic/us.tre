@@ -1,0 +1,16 @@
+ÀÄus
+   ÀÄMAIN  0/81  Ram=2
+      ÃÄ??0??
+      ÃÄrand  0/62  Ram=4
+      ³  ÃÄ@MUL3232  0/42  Ram=13
+      ³  ÀÄ@DIV1616  0/37  Ram=5
+      ÃÄ@DIV1616  0/37  Ram=5
+      ÃÄitoa  0/204  Ram=20
+      ³  ÃÄ@MUL3232  0/42  Ram=13
+      ³  ÃÄ@DIVS3232  0/108  Ram=14
+      ³  ÀÄ@DIVS3232  0/108  Ram=14
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÀÄ@delay_ms1  0/20  Ram=1

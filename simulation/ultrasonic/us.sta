@@ -1,0 +1,53 @@
+
+ROM used: 592 (58%)
+          592 (58%) including unused fragments
+
+          0 Average locations per line
+          1 Average locations per statement
+
+RAM used: 18 (28%) at main() level
+          46 (72%) worst case
+
+Stack used: 2 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   29     7   1  us.c
+  200     0   0  C:\Program Files\PICC\devices\12F675.h
+ 1273   359  74  C:\Program Files\PICC\drivers\stdlib.h
+   28     0   0  C:\Program Files\PICC\drivers\stddef.h
+  409   121  25  C:\Program Files\PICC\drivers\string.h
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+----- -----
+ 1967   487 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0    204  34  20  1068 11.1  itoa
+0     42   7  13             @MUL3232
+0    108  18  14             @DIVS3232
+0     62  10   4   101  3.8  rand
+0     37   6   5             @DIV1616
+0     20   3   1             @delay_ms1
+0     34   6   1   176  3.4  @PUTCHAR_1_
+0     81  14   2   176  3.4  MAIN
+
+Program metrics:
+    Functions               4
+    Statements              487
+    Comments                831
+    Volume (V)              1933
+    Difficilty (D)          21.6
+    Effort to implement (E) 41659
+    Time to implement (T)   39 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   4
+    Maintainability (MI)    44
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-003FF   588  432  
+
+
+

@@ -1,0 +1,488 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\data_logger\data_logger.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File001]
+Location=D:\data_logger\gps.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File002]
+Location=D:\data_logger\ff.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File003]
+Location=D:\data_logger\mmc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File004]
+Location=D:\data_logger\rtc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File005]
+Location=D:\data_logger\ic.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File006]
+Location=D:\data_logger\us.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File007]
+Location=D:\data_logger\VN100.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File008]
+Location=D:\data_logger\VN_lib.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File009]
+Location=D:\data_logger\VN_user.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_PICKIT2=1
+[File010]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\data_logger.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File011]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\gps.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File012]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\ff.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File013]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\mmc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File014]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\rtc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File015]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\ic.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File016]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\us.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File017]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\VN100.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File018]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\VN_lib.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File019]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\VN_user.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File020]
+Location=D:\my documents\data_logger\data_logger.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File021]
+Location=D:\my documents\data_logger\gps.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File022]
+Location=D:\my documents\data_logger\ff.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File023]
+Location=D:\my documents\data_logger\mmc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File024]
+Location=D:\my documents\data_logger\rtc.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File025]
+Location=D:\my documents\data_logger\ic.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File026]
+Location=D:\my documents\data_logger\us.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File027]
+Location=D:\my documents\data_logger\VN100.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File028]
+Location=D:\my documents\data_logger\VN_lib.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File029]
+Location=D:\my documents\data_logger\VN_user.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File030]
+Location=D:\my documents\data_logger\imu.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -fno-schedule-insns -fno-schedule-insns2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File031]
+Location=D:\data_logger\data_logger.cof
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PICKIT2=1 --defsym=__ICD2RAM=1
+[File032]
+Location=D:\data_logger\data_logger.hex
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1 --defsym=__MPLAB_DEBUGGER_PICKIT2=1 --defsym=__ICD2RAM=1
+[File033]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\data_logger.cof
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File034]
+Location=C:\Documents and Settings\Welcome\Desktop\data_logger\data_logger.hex
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File035]
+Location=D:\my documents\data_logger\data_logger.cof
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File036]
+Location=D:\my documents\data_logger\data_logger.hex
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|./fatfs/src;C:\Program Files\Microchip\MPLAB C30\support\peripheral_24F;C:\Program Files\Microchip\MPLAB C30\support\generic\h;C:\Program Files\Microchip\MPLAB C30\support\PIC24F\h||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|data_logger.c|gps.c|fatfs\src\ff.c|fatfs\src\mmc.c|rtc.c|ic.c|us.c|vn-100\src\VN100.c|vn-100\src\VN_lib.c|vn-100\src\VN_user.c|imu.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=--heap=0 --stack=0 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-as.exe
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files\Microchip\MPLAB C30\bin\pic30-ld.exe

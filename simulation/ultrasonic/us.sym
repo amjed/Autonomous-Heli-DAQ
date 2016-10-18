@@ -1,0 +1,102 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+019.6   C1OUT
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @SCRATCH
+025     strtok.save
+026-029 _Randseed
+02A-02B num
+02C-02F num_ascii
+030     @delay_ms1.P1
+030-033 itoa.num
+030     rand.@SCRATCH1
+030     MAIN.@SCRATCH1
+031     @PUTCHAR_1_.P1
+031     rand.@SCRATCH2
+031     MAIN.@SCRATCH2
+032     rand.@SCRATCH3
+033-034 @DIV1616.P1
+033     rand.@SCRATCH4
+034     itoa.base
+035     itoa.s
+035-036 @DIV1616.P1
+036-039 itoa.temp
+037     @DIV1616.@SCRATCH1
+03A     itoa.i
+03B     itoa.sign
+03C     itoa.cnt
+03D     itoa.c
+03E-041 @MUL3232.P1
+03E     itoa.@SCRATCH1
+03F     itoa.@SCRATCH2
+040-043 @DIVS3232.P1
+040     itoa.@SCRATCH3
+041     itoa.@SCRATCH4
+042-045 @MUL3232.P1
+042     itoa.@SCRATCH5
+043     itoa.@SCRATCH6
+044-047 @DIVS3232.P1
+046     @MUL3232.@SCRATCH1
+047     @MUL3232.@SCRATCH2
+048     @MUL3232.@SCRATCH3
+048     @DIVS3232.@SCRATCH1
+049     @MUL3232.@SCRATCH4
+049     @DIVS3232.@SCRATCH2
+04A     @MUL3232.@SCRATCH5
+04A     @DIVS3232.@SCRATCH3
+04B     @DIVS3232.@SCRATCH4
+04C     @DIVS3232.@SCRATCH5
+04D     @DIVS3232.@SCRATCH6
+10D-10E @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+00FD  itoa
+0004  @MUL3232
+0091  @DIVS3232
+0053  rand
+002E  @DIV1616
+01EB  @delay_ms1
+01C9  @PUTCHAR_1_
+01FF  MAIN
+01FF  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+Project Directory:
+    D:\data_logger\simulation\ultrasonic\
+
+Project Files:
+    us.c
+    C:\Program Files\PICC\devices\12F675.h
+    C:\Program Files\PICC\drivers\stdlib.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\ctype.h
+
+Units:
+    D:\data_logger\simulation\ultrasonic\us.c (main)
+
+Compiler Settings:
+    Processor:      PIC12F675
+    Pointer Size:   8
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      us.err
+    Ext Symbols: us.esym
+    INHX8:       us.hex
+    Symbols:     us.sym
+    List:        us.lst
+    Debug/COFF:  us.cof
+    Project:     us.PJT
+    Call Tree:   us.tre
+    Statistics:  us.sta

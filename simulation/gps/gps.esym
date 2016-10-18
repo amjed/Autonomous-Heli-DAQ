@@ -1,0 +1,110 @@
+D G "__PCB__" 0 0 ""4.088""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""16-Jan-10""
+D G "__TIME__" 0 0 ""14:44:40"" "Standard Header file for the PIC10F202 device ////////////////"
+d G "PIN_B0" 2 17 "48"
+d G "PIN_B1" 2 18 "49"
+d G "PIN_B2" 2 19 "50"
+d G "PIN_B3" 2 20 "51"
+d G "FALSE" 2 23 "0"
+d G "TRUE" 2 24 "1"
+d G "BYTE" 2 26 "int8"
+d G "BOOLEAN" 2 27 "int1"
+d G "getc" 2 29 "getch"
+d G "fgetc" 2 30 "getch"
+d G "getchar" 2 31 "getch"
+d G "putc" 2 32 "putchar"
+d G "fputc" 2 33 "putchar"
+d G "fgets" 2 34 "gets"
+d G "fputs" 2 35 "puts"
+d G "WDT_FROM_SLEEP" 2 40 "0x00"
+d G "WDT_TIMEOUT" 2 41 "0x08"
+d G "MCLR_FROM_SLEEP" 2 42 "0x10"
+d G "NORMAL_POWER_UP" 2 43 "0x18"
+d G "COMP_FROM_SLEEP" 2 44 "0x50"
+d G "PIN_CHANGE_FROM_SLEEP" 2 45 "0x90"
+d G "RTCC_INTERNAL" 2 53 "0"
+d G "RTCC_EXT_L_TO_H" 2 54 "32"
+d G "RTCC_EXT_H_TO_L" 2 55 "48"
+d G "RTCC_DIV_1" 2 57 "8"
+d G "RTCC_DIV_2" 2 58 "0"
+d G "RTCC_DIV_4" 2 59 "1"
+d G "RTCC_DIV_8" 2 60 "2"
+d G "RTCC_DIV_16" 2 61 "3"
+d G "RTCC_DIV_32" 2 62 "4"
+d G "RTCC_DIV_64" 2 63 "5"
+d G "RTCC_DIV_128" 2 64 "6"
+d G "RTCC_DIV_256" 2 65 "7"
+d G "RTCC_8_BIT" 2 68 "0"
+d G "WDT_18MS" 2 80 "8"
+d G "WDT_36MS" 2 81 "9"
+d G "WDT_72MS" 2 82 "10"
+d G "WDT_144MS" 2 83 "11"
+d G "WDT_288MS" 2 84 "12"
+d G "WDT_576MS" 2 85 "13"
+d G "WDT_1152MS" 2 86 "14"
+d G "WDT_2304MS" 2 87 "15"
+d G "DISABLE_PULLUPS" 2 89 "0x40" "for 508 and 509 only"
+d G "DISABLE_WAKEUP_ON_CHANGE" 2 90 "0x80" "for 508 and 509 only"
+F G "main" 0 4 "void()"
+F B "reset_cpu" 0 0
+F B "abs" 1 0
+F B "sleep" 0 0
+F B "delay_cycles" 1 0
+F B "read_bank" 2 0
+F B "write_bank" 3 0
+F B "shift_left" 2 2
+F B "shift_right" 2 2
+F B "rotate_left" 2 0
+F B "rotate_right" 2 0
+F B "_mul" 2 0
+F B "memset" 3 0
+F B "isamoung" 2 0
+F B "isamong" 2 0
+F B "bit_set" 2 0
+F B "bit_clear" 2 0
+F B "bit_test" 2 0
+F B "toupper" 1 0
+F B "tolower" 1 0
+F B "swap" 1 0
+F B "printf" 1 255
+F B "fprintf" 1 255
+F B "sprintf" 1 255
+F B "make8" 2 0
+F B "make16" 2 0
+F B "make32" 1 255
+F B "label_address" 1 1
+F B "goto_address" 1 0
+F B "_va_arg" 1 0
+F B "offsetofbit" 2 2
+F B "strcpy" 2 0
+F B "memcpy" 3 0
+F B "strstr100" 2 0
+F B "output_high" 1 0
+F B "output_low" 1 0
+F B "input" 1 0
+F B "input_state" 1 0
+F B "output_float" 1 0
+F B "output_drive" 1 0
+F B "output_bit" 1 1
+F B "output_toggle" 1 0
+F B "output_b" 1 0
+F B "input_b" 0 0
+F B "set_tris_b" 1 0
+F B "get_tris_b" 0 0
+F B "setup_counters" 2 0
+F B "setup_wdt" 1 0
+F B "restart_cause" 0 0
+F B "restart_wdt" 0 0
+F B "get_rtcc" 0 0
+F B "set_rtcc" 1 0
+F B "get_timer0" 0 0
+F B "set_timer0" 1 0
+F B "setup_timer_0" 1 0
+F B "delay_ms" 1 0
+F B "delay_us" 1 0
+F B "putchar" 1 2
+F B "puts" 1 2
+F B "getch" 0 1
+F B "gets" 1 3
+F B "kbhit" 0 1
